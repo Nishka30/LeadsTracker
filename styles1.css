@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+    min-width: 400px;
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+@-webkit-keyframes AnimationName {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+
+@-moz-keyframes AnimationName {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+
+@keyframes AnimationName {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+
+h1 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+/* Additional styles for overall UI improvement */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Demo Video Section */
+.demo-video-section {
+    border: 2px solid #4CAF50;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.demo-video-section h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+/* Demo Section */
+.demo-section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #333;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Style the video upload button */
+#upload-btn {
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    color: #fff;
+    padding: 12px 24px;
+    font-weight: bold;
+    transition: 0.2s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#upload-btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Update the color of other buttons */
+button {
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+#delete-btn {
+    background: #333;
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+}
+
+/* Update link color */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/* Closing line color */
+.closing-line {
+    text-align: center;
+    color: #fff;
+}
