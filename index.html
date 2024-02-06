@@ -55,5 +55,19 @@
       </footer>
     <script src="main1.js"></script>
     <script src="main1.js"></script>
+
+    <!-- click disabling code -->
+
+		<script>
+			document.addEventListener('contextmenu', function (e) {
+				e.preventDefault();
+			});
+	
+			document.addEventListener('keydown', function (e) {
+				if (e.ctrlKey && (e.key === 's' || e.key === 'S' || e.keyCode === 83 || e.keyCode === 'u'|| e.keyCode === 'U' ||e.keyCode === 85 || e.keyCode === 117)) {
+					e.preventDefault();
+				}
+			});
+           </script>
 </body>
 </html>
